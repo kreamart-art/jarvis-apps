@@ -1,0 +1,12 @@
+{
+  "name": "jarvis-apps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The collection's app server: JARVIS downloads Frame, Vision and what comes next from it.",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test server.test.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
